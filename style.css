@@ -1,0 +1,43 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grades-table {
+    box-sizing: border-box;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.grades-table thead th {
+    border: 1px solid black;
+    background-color: #539fea;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+.grades-table thead td {
+    border: 1px solid black;
+    background-color: #ddd;
+    color:black;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid black;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.grades-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.grades-table tr:hover {
+    background-color: #ddd;
+}
+
+.grades-table tbody tr td {
+    border: 1px solid black;
+    background-color:skyblue ;
+}
